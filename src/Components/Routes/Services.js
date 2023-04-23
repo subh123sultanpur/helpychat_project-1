@@ -1,9 +1,19 @@
 import React from "react";
 
+import Navbar from "../Nabar";
+import Footer from "../Footer";
+import HeroImg2 from "../HeroImg2";
+
 const Services = () => {
   return (
     <div>
-      <h1>Services</h1>
+      <Navbar />
+      <HeroImg2
+        heading="SERVICE."
+        text="im a friendly web
+      developer."
+      />
+      <Footer />
     </div>
   );
 };
