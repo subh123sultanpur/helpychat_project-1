@@ -50,11 +50,12 @@ const Footer = () => {
           <h4>About the university</h4>
           <p>
             <h4>
+              {" "}
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
               atque ea quis molestias. Fugiat pariatur maxime quis culpa
               corporis vitae repudiandae aliquam voluptatem veniam, est atque
-              cumque eum delectus sint!
-            </h4>
+              cumque eum delectus sint!{" "}
+            </h4>{" "}
           </p>
 
           <div className="social">
