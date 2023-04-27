@@ -1,4 +1,4 @@
-import "./FooterStyles.css";
+import "./Css/Footer.css";
 
 import React from "react";
 
@@ -17,62 +17,72 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FaHome
+              size={20}
+              style={{ color: "#66FCF1", marginRight: "2rem" }}
+            />
             <div>
-              <h4>
-                <p>
-                  <h4>Gla University,17km Stone,NH-2 </h4>
-                </p>
-                <p>
-                  <h4>P.O.Chaumuhan,Mathura</h4>
-                </p>
-              </h4>
+              <h4>Gla University,17km Stone,NH-2 P.O.Chaumuhan,Mathura</h4>
             </div>
           </div>
           <div className="phone">
             <h4>
               <FaPhone
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#66FCF1", marginRight: "2rem" }}
               />
               1-800-123-4567
             </h4>
           </div>
           <div className="email">
-            <FaMailBulk
-              size={20}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
-            info@gla.ac.in
+            <h4>
+              <FaMailBulk
+                size={20}
+                style={{ color: "#66FCF1", marginRight: "2rem" }}
+              />
+              info@gla.ac.in
+            </h4>
           </div>
         </div>
         <div className="right">
-          <h4>About the university</h4>
+          <h4>About the Project</h4>
           <p>
             <h4>
               {" "}
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-              atque ea quis molestias. Fugiat pariatur maxime quis culpa
-              corporis vitae repudiandae aliquam voluptatem veniam, est atque
-              cumque eum delectus sint!{" "}
+              Helpy Chat is a chat application designed to help people connect
+              and communicate with each other in real-time. Its features include
+              user registration, chat room creation, and messaging
+              functionality. Helpy Chat offers many benefits, including improved
+              collaboration, enhanced productivity, and stronger relationships.{" "}
             </h4>{" "}
           </p>
 
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a
+              href="https://www.linkedin.com/in/lucky-verma-6bb29b237"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#66FCF1", marginRight: "2rem" }}
+              />
+            </a>
+            <a href="https://twitter.com/LuckyVe03310830?s=09" target="_blank">
+              <FaTwitter
+                size={30}
+                style={{ color: "#66FCF1", marginRight: "2rem" }}
+              />
+            </a>
 
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a
+              href="https://www.facebook.com/profile.php?id=100016976880484"
+              target="_blank"
+            >
+              <FaFacebook
+                size={30}
+                style={{ color: "#66FCF1", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

@@ -1,21 +1,24 @@
 import React from "react";
-
-import Navbar from "../Nabar";
+import Header from "../Header";
+import ContactImg from "../../assets/contactus.jpg";
 import Footer from "../Footer";
-import HeroImg2 from "../HeroImg2";
+import FrontPage from "../FrontPage";
+import ContactForm from "../ContactForm";
 
-const Contact = () => {
+function Contact() {
   return (
-    <div>
-      <Navbar />
-      <HeroImg2
-        heading="CONTACT."
-        text="Let's have
-      a chat"
+    <>
+      <Header />
+      <FrontPage
+        cName="he import AboutImg
+    "
+        heroImg={ContactImg}
+        title="contact"
+        btnClass="hide"
       />
+      <ContactForm />
       <Footer />
-    </div>
+    </>
   );
-};
-
+}
 export default Contact;

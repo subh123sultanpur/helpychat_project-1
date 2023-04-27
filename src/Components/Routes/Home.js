@@ -1,16 +1,18 @@
 import React from "react";
-import Navbar from "../Nabar";
+import Header from "../Header";
 import Footer from "../Footer";
-import HeroImg from "../HeroImg";
+// import ChatBox from "./ChatBox";
 
-const Home = () => {
+function Home() {
   return (
-    <div>
-      <Navbar />
-      <HeroImg />
+    <>
+      <Header />
+      {/* <div className="chatcont">
+        <ChatBox />
+      </div> */}
       <Footer />
-    </div>
+    </>
   );
-};
+}
 
 export default Home;
